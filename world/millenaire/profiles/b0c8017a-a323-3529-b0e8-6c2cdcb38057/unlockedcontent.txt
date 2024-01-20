@@ -1,0 +1,7 @@
+villager:inuits_inuit_tanner
+villager:inuits_inuit_wife
+village:inuits_farmingvillage
+building:inuits_tannery
+building:inuits_grove
+building:inuits_foodprephouse
+building:inuits_lake

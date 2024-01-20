@@ -1,0 +1,4 @@
+player_name=Banez
+donation_mode=false
+village_diplomacy=875/70/584,5
+village_diplomacy=2287/65/1750,5

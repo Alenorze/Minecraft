@@ -1,0 +1,286 @@
+8.1.2-beta.2 09-08-2022 13:16:21 Starting new session. Mods: examplemod 
+8.1.2-beta.2 09-08-2022 13:16:40 MAJOR: null: Loading language: fr
+8.1.2-beta.2 09-08-2022 13:16:42 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 09-08-2022 13:16:42 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 09-08-2022 13:16:44 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 09-08-2022 13:16:54 ERROR: (thmosque_A0 at 1265/75/8161/0/0/972193400/Ok?ular-??lde/net.minecraft.world.WorldServer@33b14c45): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/972193400
+8.1.2-beta.2 09-08-2022 13:16:54 Exception, printing stack:
+8.1.2-beta.2 09-08-2022 13:16:54 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_433_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 09-08-2022 21:15:40 Starting new session. Mods: examplemod 
+8.1.2-beta.2 09-08-2022 21:15:53 MAJOR: null: Loading language: fr
+8.1.2-beta.2 09-08-2022 21:15:53 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 09-08-2022 21:15:53 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 09-08-2022 21:15:54 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 09-08-2022 21:16:04 ERROR: (thmosque_A0 at 1265/75/8161/0/0/1017529886/Ok?ular-??lde/net.minecraft.world.WorldServer@5670a636): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/1017529886
+8.1.2-beta.2 09-08-2022 21:16:04 Exception, printing stack:
+8.1.2-beta.2 09-08-2022 21:16:04 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_431_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 10-08-2022 21:22:10 Starting new session. Mods: examplemod 
+8.1.2-beta.2 10-08-2022 21:22:29 MAJOR: null: Loading language: fr
+8.1.2-beta.2 10-08-2022 21:22:30 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 10-08-2022 21:22:31 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 10-08-2022 21:22:33 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 10-08-2022 21:22:43 ERROR: (thmosque_A0 at 1265/75/8161/0/0/125838902/Ok?ular-??lde/net.minecraft.world.WorldServer@6d769b0e): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/125838902
+8.1.2-beta.2 10-08-2022 21:22:43 Exception, printing stack:
+8.1.2-beta.2 10-08-2022 21:22:43 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_434_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 11-08-2022 14:51:51 Starting new session. Mods: examplemod 
+8.1.2-beta.2 11-08-2022 14:52:14 MAJOR: null: Loading language: fr
+8.1.2-beta.2 11-08-2022 14:52:15 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 11-08-2022 14:52:15 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 11-08-2022 14:52:18 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 11-08-2022 14:52:30 ERROR: (thmosque_A0 at 1265/75/8161/0/0/2048635769/Ok?ular-??lde/net.minecraft.world.WorldServer@2ce47563): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/2048635769
+8.1.2-beta.2 11-08-2022 14:52:30 Exception, printing stack:
+8.1.2-beta.2 11-08-2022 14:52:30 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_437_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 11-08-2022 18:10:46 Starting new session. Mods: examplemod 
+8.1.2-beta.2 11-08-2022 18:11:02 MAJOR: null: Loading language: fr
+8.1.2-beta.2 11-08-2022 18:11:02 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 11-08-2022 18:11:02 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 11-08-2022 18:11:03 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 11-08-2022 18:11:15 ERROR: (thmosque_A0 at 1265/75/8161/0/0/1548524877/Ok?ular-??lde/net.minecraft.world.WorldServer@44dcf5c6): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/1548524877
+8.1.2-beta.2 11-08-2022 18:11:15 Exception, printing stack:
+8.1.2-beta.2 11-08-2022 18:11:15 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_433_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 11-08-2022 18:42:08 Starting new session. Mods: examplemod 
+8.1.2-beta.2 11-08-2022 18:42:32 MAJOR: null: Loading language: fr
+8.1.2-beta.2 11-08-2022 18:42:33 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 11-08-2022 18:42:33 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 11-08-2022 18:42:36 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 11-08-2022 18:42:47 ERROR: (thmosque_A0 at 1265/75/8161/0/0/1148266711/Ok?ular-??lde/net.minecraft.world.WorldServer@6f5537ca): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/1148266711
+8.1.2-beta.2 11-08-2022 18:42:47 Exception, printing stack:
+8.1.2-beta.2 11-08-2022 18:42:47 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_434_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 15-08-2022 20:32:52 Starting new session. Mods: examplemod 
+8.1.2-beta.2 15-08-2022 20:33:17 MAJOR: null: Loading language: fr
+8.1.2-beta.2 15-08-2022 20:33:18 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 15-08-2022 20:33:18 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 15-08-2022 20:33:21 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 15-08-2022 20:33:33 ERROR: (thmosque_A0 at 1265/75/8161/0/0/283307698/Ok?ular-??lde/net.minecraft.world.WorldServer@7b2282f5): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/283307698
+8.1.2-beta.2 15-08-2022 20:33:33 Exception, printing stack:
+8.1.2-beta.2 15-08-2022 20:33:33 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_435_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 16-08-2022 14:48:06 Starting new session. Mods: examplemod 
+8.1.2-beta.2 16-08-2022 14:48:26 MAJOR: null: Loading language: fr
+8.1.2-beta.2 16-08-2022 14:48:28 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 16-08-2022 14:48:28 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 16-08-2022 14:48:30 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 16-08-2022 14:48:41 ERROR: (thmosque_A0 at 1265/75/8161/0/0/703681479/Ok?ular-??lde/net.minecraft.world.WorldServer@7af6af61): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/703681479
+8.1.2-beta.2 16-08-2022 14:48:41 Exception, printing stack:
+8.1.2-beta.2 16-08-2022 14:48:41 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_433_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 16-08-2022 20:26:20 Starting new session. Mods: examplemod 
+8.1.2-beta.2 16-08-2022 20:26:35 MAJOR: null: Loading language: fr
+8.1.2-beta.2 16-08-2022 20:26:36 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 16-08-2022 20:26:36 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 16-08-2022 20:26:36 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 16-08-2022 20:26:49 ERROR: (thmosque_A0 at 1265/75/8161/0/0/978981702/Ok?ular-??lde/net.minecraft.world.WorldServer@1e053a16): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/978981702
+8.1.2-beta.2 16-08-2022 20:26:49 Exception, printing stack:
+8.1.2-beta.2 16-08-2022 20:26:49 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_433_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 17-08-2022 11:17:33 Starting new session. Mods: examplemod 
+8.1.2-beta.2 17-08-2022 11:17:51 MAJOR: null: Loading language: fr
+8.1.2-beta.2 17-08-2022 11:17:53 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 17-08-2022 11:17:53 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 17-08-2022 11:17:55 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 17-08-2022 11:18:05 ERROR: (thmosque_A0 at 1265/75/8161/0/0/1012908030/Ok?ular-??lde/net.minecraft.world.WorldServer@126ca0b7): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/1012908030
+8.1.2-beta.2 17-08-2022 11:18:05 Exception, printing stack:
+8.1.2-beta.2 17-08-2022 11:18:05 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_430_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 17-08-2022 17:43:29 Starting new session. Mods: examplemod 
+8.1.2-beta.2 17-08-2022 17:43:48 MAJOR: null: Loading language: fr
+8.1.2-beta.2 17-08-2022 17:43:49 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 17-08-2022 17:43:49 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 17-08-2022 17:43:52 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 17-08-2022 17:44:01 ERROR: (thmosque_A0 at 1265/75/8161/0/0/782215252/Ok?ular-??lde/net.minecraft.world.WorldServer@690e27e2): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/782215252
+8.1.2-beta.2 17-08-2022 17:44:01 Exception, printing stack:
+8.1.2-beta.2 17-08-2022 17:44:01 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_430_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 19-08-2022 01:59:34 Starting new session. Mods: examplemod 
+8.1.2-beta.2 19-08-2022 01:59:56 MAJOR: null: Loading language: fr
+8.1.2-beta.2 19-08-2022 01:59:58 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 19-08-2022 01:59:58 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 19-08-2022 02:00:01 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 19-08-2022 02:00:16 ERROR: (thmosque_A0 at 1265/75/8161/0/0/531018655/Ok?ular-??lde/net.minecraft.world.WorldServer@2e0fc39c): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/531018655
+8.1.2-beta.2 19-08-2022 02:00:16 Exception, printing stack:
+8.1.2-beta.2 19-08-2022 02:00:16 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_431_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+
+8.1.2-beta.2 09-07-2023 14:08:59 Starting new session. Mods: examplemod 
+8.1.2-beta.2 09-07-2023 14:09:21 MAJOR: null: Loading language: fr
+8.1.2-beta.2 09-07-2023 14:09:22 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_alchemist.txt
+8.1.2-beta.2 09-07-2023 14:09:22 ERROR: null: Git conflict lines present in C:\Games\minecraft_server\mods\millenaire\languages\zh_tw\quests_sadhu.txt
+8.1.2-beta.2 09-07-2023 14:09:25 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2-beta.2 09-07-2023 14:09:35 ERROR: (thmosque_A0 at 1265/75/8161/0/0/1191167206/Ok?ular-??lde/net.minecraft.world.WorldServer@3b642404): Error when trying to load building of type: thmosque_A0 at 1265/75/8161/0/0/1191167206
+8.1.2-beta.2 09-07-2023 14:09:35 Exception, printing stack:
+8.1.2-beta.2 09-07-2023 14:09:35 java.lang.NullPointerException
+	at org.millenaire.common.buildingplan.BuildingPlan.updateTags(BuildingPlan.java:3233)
+	at org.millenaire.common.village.Building.readFromNBT(Building.java:5262)
+	at org.millenaire.common.village.Building.<init>(Building.java:816)
+	at org.millenaire.common.world.MillWorldData.loadBuildings(MillWorldData.java:609)
+	at org.millenaire.common.world.MillWorldData.loadData(MillWorldData.java:643)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:276)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_430_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:190)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:451)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:321)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:688)
+	at java.lang.Thread.run(Unknown Source)
+

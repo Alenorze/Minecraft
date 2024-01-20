@@ -1,0 +1,676 @@
+{
+  "general": {
+    "dumpCraftingConfig": {
+      "value": false,
+      "comment": "If true, then all recipes for all items in packs will be dumped into the config file at boot.  WARNING: this will overwrite your existing crafting overrides file!"
+    },
+    "opSignEditingOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to edit signs on servers.  Does not affect client worlds."
+    },
+    "opPickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to pick up vehicles with wrenches.  Does not affect client worlds."
+    },
+    "creativePickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, vehicles can only be picked up in creative mode."
+    },
+    "blockBreakage": {
+      "value": true,
+      "comment": "Whether or not vehicles and guns can break blocks when they hit them.  If false, vehicles will simply stop when they hit blocks, and guns won't break blocks when they hit them.  This will also disable explosive block breakage, though not explosions themselves."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
+    },
+    "creativeDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players."
+    },
+    "chunkloadVehicles": {
+      "value": true,
+      "comment": "If true, vehicles will be chunkloaded when on roads/tracks.  This allows them to travel into unloaded chunks."
+    },
+    "doLegacyLightCompats": {
+      "value": true,
+      "comment": "If true, legacy compatibility code will be performed on all models to make their lights work with newer versions.  This code will significantly slow down boot times due to needing to parse all models on boot, however, packs may not have functional lights without it.  Choose wisely if you want speed or features."
+    },
+    "useHSV": {
+      "value": false,
+      "comment": "If enabled, the MTS dev mode will export color values as HSV instead of hex."
+    },
+    "allPlanesWithNav": {
+      "value": false,
+      "comment": "If true, all planes will have the ability to use beacons for navigation.  This is false to allow pack authors to define new/old planes that have this capability, but can be turned on if you don't care about realism."
+    },
+    "speedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to vehicle movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "fuelUsageFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines use fuel.  Change this if you think engines use fuel too fast or slow."
+    },
+    "engineHoursFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines hours accumulate.  Change this if you want to adjust how fast engines wear out."
+    },
+    "climbSpeed": {
+      "value": 0.125,
+      "comment": "How far a vehicle will 'climb' blocks every tick when the wheels go into the ground.  Higher values make vehicles climb blocks quicker at the cost of smooth movement."
+    },
+    "gravityFactor": {
+      "value": 1.0,
+      "comment": "Factor for gravitational forces applied to vehicles.  Can be adjusted if you think cars are too 'floaty'.  Does not affect aircraft."
+    },
+    "engineSpeedTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how RPM affects engine temp.  Higher values will make engines heat up quicker at higher RPMs."
+    },
+    "engineBiomeTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how biome temp affects engine temp.  Higher values will make engines heat up quicker in hotter biomes."
+    },
+    "joinedPlayers": {
+      "value": ["c71c47f4-57a4-351c-9dcd-02b18b73c1bb","eb5d2b78-a428-3026-92cd-15558d47a37f","304e07b9-f82b-3a57-b712-b5dd3fe3b6c0","4a76acd4-f3fa-3194-a692-230b970e7238","4aefaa99-5de0-32b0-8c4f-1fc9326388ee","a1abd4ad-e9ed-3caa-b615-7f3bf93a6feb","b0c8017a-a323-3529-b0e8-6c2cdcb38057","7f612442-d752-3948-86a7-291f0abd0a6c"],
+      "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
+    },
+    "itemWeights": {
+      "comment1": "The following section is used for calculating item weights.  Any item that contains the text bits will have its weight multiplied by the following factor.",
+      "comment2": "This mass factors into vehicle performance, with particular emphasis on vehicle payloads.  Some defaults are presented here, but you can add/remove to your liking.",
+      "comment3": "Note that the part of the name searched is the item's registry name, NOT the in-game display name.  This is similar to what is in the /give command.",
+      "weights": {
+        "gold": 4.0,
+        "diamond": 4.0,
+        "ore": 2.5,
+        "iron": 4.0,
+        "coal": 2.0,
+        "stone": 1.5
+      }
+    }
+  },
+  "damage": {
+    "explosions": {
+      "value": true,
+      "comment": "Whether or not vehicles explode when crashed or shot down."
+    },
+    "wheelBreakage": {
+      "value": true,
+      "comment": "Whether or not wheels can be broken (go flat)."
+    },
+    "wheelDamageIgnoreVelocity": {
+      "value": false,
+      "comment": "Whether or not velocity is ignored when calculating wheel damage."
+    },
+    "propellerDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a propeller."
+    },
+    "jetDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a jet engine."
+    },
+    "wheelDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by wheels on vehicles."
+    },
+    "crashDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by crashes."
+    },
+    "bulletDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by bullets on vehicles."
+    },
+    "engineLeakProbability": {
+      "value": 0.01,
+      "comment": "Chance an engine will spring a leak if hit.  Explosions cause 10x this chance."
+    },
+    "crashItemDropPercentage": {
+      "value": 0.75,
+      "comment": "Percent that a crafting ingredient will be dropped when a vehicle is crashed.  Note that fire/explosions may destroy these items if enabled, so just because they drop does not mean you will get all of them."
+    },
+    "wheelDamageMinimumVelocity": {
+      "value": 0.2,
+      "comment": "Minimum velocity (blocks/second) which vehicles must be going to damage entities with their wheels."
+    }
+  },
+  "fuel": {
+    "comment1": "The following section is used for fuel configs for engines.  Each entry here is a single fuel type for engines.",
+    "comment2": "Inside each entry exist values for the potency of the fluids that can be considered to be that fuel type.",
+    "comment3": "You can make engines take different types of fluids for their fuels by editing these values.  See the in-game handbook for more information.",
+    "comment4": "If you are having troubles getting the name for a particular fluid, run the game with the mods you want and check the 'lastLoadedFluids' list.  This contains all the fluids that were present during the last run of the game.",
+    "fuels": {
+      "diesel": {
+        "creosote": 0.7,
+        "diesel": 1.0,
+        "lava": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "furnace": {
+        "lava": 1.0
+      },
+      "avgas": {
+        "lava": 1.0,
+        "gasoline": 1.0
+      },
+      "gasoline": {
+        "lava": 1.0,
+        "gasoline": 1.0,
+        "ethanol": 0.85
+      }
+    },
+    "lastLoadedFluids": {
+      "oil_residue": "buildcraft.fluid.heat_0 [fluid.oil_residue]",
+      "cracked_light_fuel": "Steam-Cracked Light Fuel",
+      "yttrium_barium_cuprate": "Yttrium Barium Cuprate",
+      "darmstadtium": "Darmstadtium",
+      "palladium": "Palladium",
+      "potion.railcraft.long_creosote": "Potion of Creosote",
+      "oil_heavy_heat_1": "buildcraft.fluid.heat_1 [fluid.oil_heavy]",
+      "ic2milk": "Milk",
+      "ic2creosote": "Creosote",
+      "milk": "Milk",
+      "hydrocracked_ethylene": "Hydro-Cracked Ethylene",
+      "oil_heavy_heat_2": "buildcraft.fluid.heat_2 [fluid.oil_heavy]",
+      "bronze": "Molten Bronze",
+      "plastic": "Polyethylene",
+      "steel_magnetic": "Magnetic Steel",
+      "niobium_titanium": "Niobium-Titanium",
+      "redstone": "Redstone",
+      "ethenone": "Ethenone",
+      "liquid_air": "Liquid Air",
+      "ic2hydrogen": "Hydrogen",
+      "gold": "Molten Gold",
+      "potion.minecraft.long_swiftness": "Potion of Swiftness",
+      "ic2construction_foam": "Construction Foam",
+      "electrum": "Molten Electrum",
+      "fermented_biomass": "Fermented Biomass",
+      "helium": "Helium",
+      "naquadah_enriched": "Enriched Naquadah",
+      "blood": "Blood",
+      "neodymium": "Neodymium",
+      "fuel_gaseous_heat_2": "buildcraft.fluid.heat_2 [fluid.fuel_gaseous]",
+      "fuel_gaseous_heat_1": "buildcraft.fluid.heat_1 [fluid.fuel_gaseous]",
+      "red_steel": "Red Steel",
+      "potion.minecraft.long_water_breathing": "Potion of Water Breathing",
+      "potion.minecraft.long_poison": "Potion of Poison",
+      "oil_residue_heat_2": "buildcraft.fluid.heat_2 [fluid.oil_residue]",
+      "bio.ethanol": "Ethanol",
+      "hydrocracked_naphtha": "Hydro-Cracked Naphtha",
+      "oil_residue_heat_1": "buildcraft.fluid.heat_1 [fluid.oil_residue]",
+      "plasma.helium": "Helium",
+      "knightslime": "Molten Knightslime",
+      "fuel_light": "buildcraft.fluid.heat_0 [fluid.fuel_light]",
+      "lithium": "Lithium",
+      "plasma.iron": "Iron",
+      "bismuth_bronze": "Bismuth Bronze",
+      "cobalt_brass": "Cobalt Brass",
+      "rubber": "Rubber",
+      "tin": "Molten Tin",
+      "hsss": "HSS-S",
+      "diluted_hydrochloric_acid": "Diluted Hydrochloric Acid",
+      "ic2oxygen": "Oxygen",
+      "potion.minecraft.leaping": "Potion of Leaping",
+      "fuel_mixed_light_heat_2": "buildcraft.fluid.heat_2 [fluid.fuel_mixed_light]",
+      "chrome": "Chrome",
+      "uranium235": "Uranium 235",
+      "isoprene": "Isoprene",
+      "fuel_mixed_light_heat_1": "buildcraft.fluid.heat_1 [fluid.fuel_mixed_light]",
+      "oil_distilled_heat_1": "buildcraft.fluid.heat_1 [fluid.oil_distilled]",
+      "oil_distilled_heat_2": "buildcraft.fluid.heat_2 [fluid.oil_distilled]",
+      "stainless_steel": "Stainless Steel",
+      "hydrocracked_butene": "Hydro-Cracked Butene",
+      "hsse": "HSS-E",
+      "potion.minecraft.strong_poison": "Potion of Poison",
+      "hssg": "HSS-G",
+      "sand": "Quicksand",
+      "sodium": "Sodium",
+      "light_fuel": "Light Fuel",
+      "potion.minecraft.thick": "Thick Potion",
+      "polytetrafluoroethylene": "Polytetrafluoroethylene",
+      "thulium": "Thulium",
+      "methane": "Methane",
+      "bisphenol_a": "Bisphenol A",
+      "emerald": "Molten Emerald",
+      "ytterbium": "Ytterbium",
+      "cerium": "Cerium",
+      "potion.minecraft.weakness": "Potion of Weakness",
+      "sulfuric_light_fuel": "Sulfuric Light Fuel",
+      "iridium": "Iridium",
+      "tin_alloy": "Tin Alloy",
+      "ic2hot_coolant": "IC2 Hot Coolant",
+      "hydrocracked_gas": "Hydro-Cracked Refinery Gas",
+      "ic2pahoehoe_lava": "Pahoehoe Lava",
+      "potion.railcraft.strong_creosote": "Potion of Creosote",
+      "nitrogen": "Nitrogen",
+      "black_steel": "Black Steel",
+      "natural_gas": "Natural Gas",
+      "potion.minecraft.long_leaping": "Potion of Leaping",
+      "chloroform": "Chloroform",
+      "reinforced_epoxy_resin": "Fiber-Reinforced Epoxy Resin",
+      "iron": "Molten Iron",
+      "salt_water": "Salt Water",
+      "tantalum": "Tantalum",
+      "chloromethane": "Chloromethane",
+      "bismuth": "Bismuth",
+      "hydrocracked_butadiene": "Hydro-Cracked Butadiene",
+      "heavy_fuel": "Heavy Fuel",
+      "steamcracked_butene": "Steam-Cracked Butene",
+      "glowstone": "Glowstone",
+      "for.honey": "Honey",
+      "potion.minecraft.long_strength": "Potion of Strength",
+      "tungsten": "Tungsten",
+      "tellurium": "Tellurium",
+      "zinc": "Molten Zinc",
+      "plasma.nickel": "Nickel",
+      "silicone": "Polysiloxane",
+      "hydrochloric_acid": "Hydrochloric Acid",
+      "lanthanum": "Lanthanum",
+      "steamcracked_ethane": "Steam-Cracked Ethane",
+      "potion.minecraft.swiftness": "Potion of Swiftness",
+      "potion.minecraft.harming": "Potion of Harming",
+      "plutonium241": "Plutonium 241",
+      "plasma.oxygen": "Oxygen",
+      "rocket_fuel": "Rocket Fuel",
+      "silver": "Molten Silver",
+      "ic2uu_matter": "UU-Matter",
+      "hydrocracked_light_fuel": "Hydro-Cracked Light Fuel",
+      "nitro_fuel": "Nitro-Diesel",
+      "carbon_monoxide": "Carbon Monoxide",
+      "hot_spring_water": "Hot Spring Water",
+      "air": "Air",
+      "vinyl_acetate": "Vinyl Acetate",
+      "vinyl_chloride": "Vinyl Chloride",
+      "duranium": "Duranium",
+      "niobium_nitride": "Niobium Nitride",
+      "cracked_heavy_fuel": "Steam-Cracked Heavy Fuel",
+      "niobium": "Niobium",
+      "epoxid": "Epoxy Resin",
+      "dimethylamine": "Dimethylamine",
+      "dinitrogen_tetroxide": "Dinitrogen Tetroxide",
+      "styrene": "Styrene",
+      "blaze_juice": "Blaze Juice",
+      "potion.minecraft.long_weakness": "Potion of Weakness",
+      "nitration_mixture": "Nitration Mixture",
+      "strontium": "Strontium",
+      "praseodymium": "Praseodymium",
+      "calcium_acetate": "Dissolved Calcium Acetate",
+      "ic2hot_water": "Hotspring Water",
+      "aluminium": "Aluminium",
+      "erbium": "Erbium",
+      "acetone": "Acetone",
+      "fuel": "Diesel",
+      "fuel_mixed_heavy_heat_2": "buildcraft.fluid.heat_2 [fluid.fuel_mixed_heavy]",
+      "battery_alloy": "Battery Alloy",
+      "fuel_mixed_heavy_heat_1": "buildcraft.fluid.heat_1 [fluid.fuel_mixed_heavy]",
+      "nitric_oxide": "Nitric Oxide",
+      "steamcracked_butadiene": "Steam-Cracked Butadiene",
+      "platinum": "Platinum",
+      "deuterium": "Deuterium",
+      "oxygen": "Oxygen",
+      "sulfuric_heavy_fuel": "Sulfuric Heavy Fuel",
+      "styrene_butadiene_rubber": "Styrene-Butadiene Rubber",
+      "nickel_zinc_ferrite": "Nickel Zinc Ferrite",
+      "dirt": "Liquid Dirt",
+      "brass": "Molten Brass",
+      "potion.minecraft.fire_resistance": "Potion of Fire Resistance",
+      "hydrocracked_propane": "Hydro-Cracked Propane",
+      "lead_zinc_solution": "Lead-Zinc Solution",
+      "potion.minecraft.awkward": "Awkward Potion",
+      "plasma.nitrogen": "Nitrogen",
+      "ic2steam": "Steam",
+      "cadmium": "Cadmium",
+      "uranium": "Uranium 238",
+      "hydrocracked_butane": "Hydro-Cracked Butane",
+      "potassium": "Potassium",
+      "potion.minecraft.night_vision": "Potion of Night Vision",
+      "hydrogen_sulfide": "Hydrogen Sulfide",
+      "damascus_steel": "Damascus Steel",
+      "polycaprolactam": "Polycaprolactam",
+      "oil": "buildcraft.fluid.heat_0 [fluid.oil]",
+      "naquadria": "Naquadria",
+      "tritanium": "Tritanium",
+      "promethium": "Promethium",
+      "mc_guffium239": "Mc Guffium 239",
+      "polyphenylene_sulfide": "Polyphenylene Sulfide",
+      "plasma.argon": "Argon",
+      "indium": "Indium",
+      "sulfur_dioxide": "Sulfur Dioxide",
+      "distilled_water": "Distilled Water",
+      "potion.minecraft.long_invisibility": "Potion of Invisibility",
+      "red_alloy": "Red Alloy",
+      "fuel_gaseous": "buildcraft.fluid.heat_0 [fluid.fuel_gaseous]",
+      "lubricant": "Lubricant",
+      "potion.minecraft.mundane": "Mundane Potion",
+      "dimethyldichlorosilane": "Dimethyldichlorosilane",
+      "oil_light": "Light Oil",
+      "potion.minecraft.slowness": "Potion of Slowness",
+      "glue": "Glue",
+      "steamcracked_gas": "Steam-Cracked Refinery Gas",
+      "nitrogen_dioxide": "Nitrogen Dioxide",
+      "propane": "Propane",
+      "manyullyn": "Molten Manyullyn",
+      "borosilicate_glass": "Borosilicate Glass",
+      "purpleslime": "Liquid Purple Slime",
+      "yttrium": "Yttrium",
+      "thorium": "Thorium",
+      "polyvinyl_acetate": "Polyvinyl Acetate",
+      "rubidium": "Rubidium",
+      "fuel_dense": "buildcraft.fluid.heat_0 [fluid.fuel_dense]",
+      "invar": "Invar",
+      "molybdenum": "Molybdenum",
+      "methyl_acetate": "Methyl Acetate",
+      "steamcracked_butane": "Steam-Cracked Butane",
+      "potion.minecraft.long_fire_resistance": "Potion of Fire Resistance",
+      "bio_diesel": "Bio Diesel",
+      "oil_distilled": "buildcraft.fluid.heat_0 [fluid.oil_distilled]",
+      "uuamplifier": "UU-Amplifier",
+      "ic2distilled_water": "Distilled Water",
+      "potion.minecraft.strong_harming": "Potion of Harming",
+      "hydrocracked_ethane": "Hydro-Cracked Ethane",
+      "wood_vinegar": "Wood Vinegar",
+      "oil_heavy": "buildcraft.fluid.heat_0 [fluid.oil_heavy]",
+      "seed.oil": "Seed Oil",
+      "vanadium": "Vanadium",
+      "diluted_sulfuric_acid": "Diluted Sulfuric Acid",
+      "soldering_alloy": "Soldering Alloy",
+      "gadolinium": "Gadolinium",
+      "titanium_tetrachloride": "Titanium Tetrachloride",
+      "gallium_arsenide": "Gallium Arsenide",
+      "aluminum": "Molten Aluminum",
+      "hydrocracked_heavy_fuel": "Hydro-Cracked Heavy Fuel",
+      "manganese": "Manganese",
+      "naquadah": "Naquadah",
+      "clay": "Molten Clay",
+      "potion.minecraft.long_regeneration": "Potion of Regeneration",
+      "potion.minecraft.strong_strength": "Potion of Strength",
+      "butane": "Butane",
+      "copper": "Molten Copper",
+      "naquadah_alloy": "Naquadah Alloy",
+      "biomass": "Biomass",
+      "antimony": "Antimony",
+      "poison": "Poison",
+      "polystyrene": "Polystyrene",
+      "potion.minecraft.poison": "Potion of Poison",
+      "fuelium": "Fuelium",
+      "alubrass": "Molten Aluminum Brass",
+      "ic2superheated_steam": "Superheated Steam",
+      "epichlorhydrin": "Epichlorohydrin",
+      "samarium": "Samarium",
+      "drilling_fluid": "Drilling Fluid",
+      "ice": "Crushed Ice",
+      "ic2biomass": "Biomass",
+      "graphite": "Graphite",
+      "steamcracked_propane": "Steam-Cracked Propane",
+      "ethylene": "Ethylene",
+      "iron_magnetic": "Magnetic Iron",
+      "pigiron": "Molten Pigiron",
+      "oil_medium": "Raw Oil",
+      "neutron": "Liquid Neutron",
+      "beryllium": "Beryllium",
+      "ardite": "Molten Ardite",
+      "potion.minecraft.strong_leaping": "Potion of Leaping",
+      "glass": "Liquid Glass",
+      "sulfuric_gas": "Sulfuric Gas",
+      "obsidian": "Molten Obsidian",
+      "sulfuric_naphtha": "Sulfuric Naphtha",
+      "tungsten_carbide": "Tungstencarbide",
+      "glycerol": "Glycerol",
+      "tetrafluoroethylene": "Tetrafluoroethylene",
+      "chloramine": "Chloramine",
+      "potion.minecraft.strong_regeneration": "Potion of Regeneration",
+      "sulfuric_acid": "Sulfuric Acid",
+      "potion.railcraft.creosote": "Potion of Creosote",
+      "potion.minecraft.healing": "Potion of Healing",
+      "radon": "Radon",
+      "graphene": "Graphene",
+      "hydrocracked_propene": "Hydro-Cracked Propene",
+      "black_bronze": "Black Bronze",
+      "wood_gas": "Wood Gas",
+      "lava": "Lava",
+      "honey": "Honey",
+      "gas": "Refinery Gas",
+      "charcoal_byproducts": "Charcoal Byproducts",
+      "potion.minecraft.long_slowness": "Potion of Slowness",
+      "noble_gases": "Noble Gases",
+      "tetranitromethane": "Tetranitromethane",
+      "ic2heavy_water": "Heavy Water",
+      "fluorine": "Fluorine",
+      "nickel": "Molten Nickel",
+      "calcium": "Calcium",
+      "potion.minecraft.strong_swiftness": "Potion of Swiftness",
+      "nickel_sulfate_water_solution": "Nickel Sulfate Water Solution",
+      "blue_vitriol_water_solution": "Blue Vitriol Water Solution",
+      "osmium": "Osmium",
+      "gallium": "Gallium",
+      "chlorine": "Chlorine",
+      "stone": "Seared Stone",
+      "construction_foam": "Construction Foam",
+      "silicon": "Silicon",
+      "dichlorobenzene": "Dichlorobenzene",
+      "pig_iron": "Pig Iron",
+      "toluene": "Toluene",
+      "allyl_chloride": "Allyl Chloride",
+      "fuel_mixed_heavy": "buildcraft.fluid.heat_0 [fluid.fuel_mixed_heavy]",
+      "ultimet": "Ultimet",
+      "ammonia": "Ammonia",
+      "barium": "Barium",
+      "propene": "Propene",
+      "indium_concentrate": "Indium Concentrate",
+      "hydrogen": "Hydrogen",
+      "americium": "Americium",
+      "potion.minecraft.strength": "Potion of Strength",
+      "carbon": "Carbon",
+      "rose_gold": "Rose Gold",
+      "tritium": "Tritium",
+      "oil_heat_1": "buildcraft.fluid.heat_1 [fluid.oil]",
+      "potion.minecraft.regeneration": "Potion of Regeneration",
+      "helium3": "Helium 3",
+      "hypochlorous_acid": "Hypochlorous Acid",
+      "magnesium": "Magnesium",
+      "scandium": "Scandium",
+      "silicon_rubber": "Silicone Rubber",
+      "hydrofluoric_acid": "Hydrofluoric Acid",
+      "fuel_dense_heat_1": "buildcraft.fluid.heat_1 [fluid.fuel_dense]",
+      "fuel_dense_heat_2": "buildcraft.fluid.heat_2 [fluid.fuel_dense]",
+      "vanadium_steel": "Vanadiumsteel",
+      "fuel_light_heat_1": "buildcraft.fluid.heat_1 [fluid.fuel_light]",
+      "fuel_light_heat_2": "buildcraft.fluid.heat_2 [fluid.fuel_light]",
+      "potion.minecraft.luck": "Potion of Luck",
+      "argon": "Argon",
+      "phenol": "Phenol",
+      "oil_heat_2": "buildcraft.fluid.heat_2 [fluid.oil]",
+      "steel": "Molten Steel",
+      "ic2weed_ex": "Weed-Ex",
+      "cobalt": "Molten Cobalt",
+      "ic2air": "Air",
+      "short.mead": "Short Mead",
+      "magnalium": "Magnalium",
+      "cumene": "Cumene",
+      "blaze": "Blaze",
+      "europium": "Europium",
+      "methanol": "Methanol",
+      "steamcracked_ethylene": "Steam-Cracked Ethylene",
+      "butene": "Butene",
+      "potion.minecraft.strong_healing": "Potion of Healing",
+      "nitric_acid": "Nitric Acid",
+      "dimethylhidrazine": "1,1-Dimethylhydrazine",
+      "potion.minecraft.invisibility": "Potion of Invisibility",
+      "lpg": "LPG",
+      "steamcracked_naphtha": "Steam-Cracked Naphtha",
+      "lutetium": "Lutetium",
+      "juice": "Fruit Juice",
+      "naphtha": "Naphtha",
+      "lead": "Molten Lead",
+      "kanthal": "Kanthal",
+      "ethane": "Ethane",
+      "osmiridium": "Osmiridium",
+      "sulfur_trioxide": "Sulfur Trioxide",
+      "glyceryl": "Glyceryl Trinitrate",
+      "phosphoric_acid": "Phosphoric Acid",
+      "fuel_mixed_light": "buildcraft.fluid.heat_0 [fluid.fuel_mixed_light]",
+      "ic2biogas": "Biogas",
+      "sodium_persulfate": "Sodium Persulfate",
+      "wood_tar": "Wood Tar",
+      "oil_dense": "buildcraft.fluid.heat_0 [fluid.oil_dense]",
+      "potion.minecraft.long_night_vision": "Potion of Night Vision",
+      "acetic_acid": "Acetic Acid",
+      "butadiene": "Butadiene",
+      "potion.minecraft.water_breathing": "Potion of Water Breathing",
+      "ender_sap": "Ender Sap",
+      "dysprosium": "Dysprosium",
+      "polyvinyl_chloride": "Polyvinyl Chloride",
+      "water": "Water",
+      "plutonium": "Plutonium 244",
+      "steamcracked_propene": "Steam-Cracked Propene",
+      "cupronickel": "Cupronickel",
+      "tungsten_steel": "Tungstensteel",
+      "carbon_dioxide": "Carbon Dioxide",
+      "concrete": "Concrete",
+      "blue_steel": "Blue Steel",
+      "oil_dense_heat_2": "buildcraft.fluid.heat_2 [fluid.oil_dense]",
+      "mercury": "Mercury",
+      "titanium": "Titanium",
+      "sterling_silver": "Sterling Silver",
+      "uumatter": "UU-Matter",
+      "neodymium_magnetic": "Magnetic Neodymium",
+      "annealed_copper": "Annealed Copper",
+      "oil_dense_heat_1": "buildcraft.fluid.heat_1 [fluid.oil_dense]",
+      "steam": "Steam",
+      "wrought_iron": "Wrought Iron",
+      "terbium": "Terbium",
+      "creosote": "Creosote",
+      "caesium": "Caesium",
+      "blueslime": "Liquid Blue Slime",
+      "holmium": "Holmium",
+      "benzene": "Benzene",
+      "vanadium_gallium": "Vanadium-Gallium",
+      "ic2coolant": "IC2 Coolant",
+      "indium_gallium_phosphide": "Indium Gallium Phosphide",
+      "nichrome": "Nichrome"
+    }
+  },
+  "clientRendering": {
+    "renderHUD_1P": {
+      "value": true,
+      "comment": "If false, the HUD in vehicles will not render in 1st-person mode."
+    },
+    "renderHUD_3P": {
+      "value": true,
+      "comment": "If false, the HUD in vehicles will not render in 3rd-person mode."
+    },
+    "fullHUD_1P": {
+      "value": false,
+      "comment": "If true, the full-size HUD will render in 1st-person rather than the half-size HUD."
+    },
+    "fullHUD_3P": {
+      "value": false,
+      "comment": "If true, the full-size HUD will render in 3rd-person rather than the half-size HUD."
+    },
+    "transpHUD_1P": {
+      "value": false,
+      "comment": "If true, the background textures for the HUD will not be rendered in 1st-person."
+    },
+    "transpHUD_3P": {
+      "value": false,
+      "comment": "If true, the background textures for the HUD will not be rendered in 1st-person."
+    },
+    "renderWindows": {
+      "value": true,
+      "comment": "Should the glass on windows be rendered on vehicles?"
+    },
+    "innerWindows": {
+      "value": false,
+      "comment": "Should the glass on windows be rendered on the inside of the vehicle?  Note: if renderWindows is false, this config has no effect."
+    },
+    "vehicleBeams": {
+      "value": true,
+      "comment": "If false, beams on vehicles will not render."
+    },
+    "blockBeams": {
+      "value": true,
+      "comment": "If false, beams on blocks will not render."
+    },
+    "brightLights": {
+      "value": true,
+      "comment": "If false, lights from vehicles and blocks will not do brightness blending and will render as if they were part of the model at that same brightness.  Useful if you have shaders and this is causing troubles."
+    },
+    "blendedLights": {
+      "value": true,
+      "comment": "If false, beam-based lights from vehicles and blocks will not do brightness blending.  This is different from the general brightness setting as this will do OpenGL blending on the world to make it brighter, not just the beams themselves."
+    },
+    "playerTweaks": {
+      "value": true,
+      "comment": "If true, player hands will be modified when holding guns, and hands and legs will be modified when riding in vehicles.  Set this to false if mods cause issues, like two-hand rendering or player model issues."
+    }
+  },
+  "clientControls": {
+    "mouseYoke": {
+      "value": false,
+      "comment": "Enable mouse yoke for vehicles? Prevents looking around unless unlocked.  Think MCHeli controls."
+    },
+    "kbOverride": {
+      "value": true,
+      "comment": "Should keyboard controls be ignored when a joystick control is mapped?  Leave true to free up the keyboard while using a joysick."
+    },
+    "simpleThrottle": {
+      "value": true,
+      "comment": "If true, then vehicles will automatically go into reverse after stopped with the brake rather than staying stopped and waiting for you to shift.  When going in reverse, the opposite is true: the vehicle will shift into forwards when pressing forwards when stopped.  Additionally, the parking brake will automatically be set when leaving the vehicle."
+    },
+    "halfThrottle": {
+      "value": false,
+      "comment": "If true, then the gas key will only be a half-throttle, with the MOD+Throttle key becoming the full-speed control.  Useful if you want a more controlled vehicle experience.  Only valid on car/boat types with on-off throttles, and does not work in conjunction with simpleThrottle as that changes how the MOD key works with gas and brake keys."
+    },
+    "autostartEng": {
+      "value": true,
+      "comment": "If true, engines will automatically start when a driver enters a vehicle, and will turn off when they leave.  The parking brake will also be applied when leaving the vehicle.  Note: this does not bypass the fuel or electrical system."
+    },
+    "autoTrnSignals": {
+      "value": true,
+      "comment": "If true, turns signals will come on automatically when you start a turn, and will turn off when the turn completes.  If this is false, then they will only be able to be activated with the keybinds or via the panel."
+    },
+    "heliAutoLevel": {
+      "value": true,
+      "comment": "If true, helicopters will automatically return to level flight when you let off the control stick.  However, this will prevent them from doing loops.  The realistic value for this config is false, but the one that's more player-freindly is true.  Hence it being the default."
+    },
+    "classicJystk": {
+      "value": false,
+      "comment": "If true, the classic controller code will be used.  Note: THIS CODE MAY CRASH MOBILE DEVICES!  Also note that switching will probably mess up your keybinds.  Only do this if you are having issues with a joystick or controller not being recognized.  After changing this setting, reboot the game to make it take effect."
+    },
+    "north360": {
+      "value": false,
+      "comment": "If true, instruments will represent North as 360 degrees, instead of the Minecraft default of 180. Allows using the heading system that real-world pilots and militaries do."
+    },
+    "devMode": {
+      "value": false,
+      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
+    },
+    "steeringControlRate": {
+      "value": 2.0,
+      "comment": "How many degrees to turn the wheels on vehicles for every tick the button is held down.  This is not used when using a joystick."
+    },
+    "flightControlRate": {
+      "value": 0.6,
+      "comment": "How many degrees to move the elevators and ailerons on aircraft for every tick the button is held down.  This is not used when using a joystick."
+    },
+    "mouseYokeRate": {
+      "value": 0.1,
+      "comment": "How many degrees to move control surfaces for every 1 mouse unit change.  Used for mouse yoke controls."
+    },
+    "joystickDeadZone": {
+      "value": 0.03,
+      "comment": "Dead zone for joystick axis.  This is NOT joystick specific."
+    }
+  },
+  "controls": {
+    "keyboard": {},
+    "joystick": {}
+  }
+}

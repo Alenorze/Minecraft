@@ -1,0 +1,17 @@
+player_name=crankshaft
+donation_mode=false
+culture_reputation=norman,41
+culture_language=norman,10
+village_reputations=-584/66/632,405
+village_diplomacy=-584/66/632,5
+village_diplomacy=-391/78/3784,5
+village_diplomacy=1261/75/8159,5
+village_diplomacy=152/66/1387,5
+village_diplomacy=1172/70/6071,5
+village_diplomacy=-484/69/1960,5
+village_diplomacy=3065/67/19389,5
+village_diplomacy=3056/65/13783,5
+village_diplomacy=1246/66/5462,5
+village_diplomacy=3706/69/9059,5
+village_diplomacy=1264/66/6682,5
+village_diplomacy=-1799/71/436,5
