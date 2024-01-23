@@ -1,2 +1,0 @@
-quest:lumbermanwine;step:0;startTime:776000;currentStepStartTime:776000;villager:startvillager,4006570008950492823,-1259/68/732
-quest:lordssword;step:0;startTime:803000;currentStepStartTime:803000;villager:startvillager,1908955096645338698,-594/77/-61;villager:knight,5379791940152907431,-594/77/-61

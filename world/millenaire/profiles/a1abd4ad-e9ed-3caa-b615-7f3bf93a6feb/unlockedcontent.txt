@@ -1,5 +1,0 @@
-villager:inuits_inuit_wife
-village:inuits_farmingvillage
-building:inuits_flower
-building:inuits_sodder
-building:inuits_foodprephouse

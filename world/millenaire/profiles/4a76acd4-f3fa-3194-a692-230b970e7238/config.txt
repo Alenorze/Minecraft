@@ -1,7 +1,0 @@
-player_name=pussyeater
-donation_mode=false
-culture_reputation=indian,-40
-village_reputations=2725/64/2267,-400
-village_diplomacy=875/70/584,5
-village_diplomacy=2287/65/1750,5
-village_diplomacy=2725/64/2267,5
