@@ -1,1 +1,0 @@
-java -Xmx5024m -jar magma.jar
